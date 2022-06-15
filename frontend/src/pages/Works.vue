@@ -1,5 +1,5 @@
 <template>
-  <div id='work' class='w-full h-full bg-gradient-to-t from-zinc-900 to-zinc-700 text-[#ffffff]'>
+  <div id='work' class='w-full h-full bg-gradient-to-t from-zinc-900 to-zinc-700 text-[#ffffff] lg:w-full lg:h-full'>
     <div class='max-w-[1600px] mx-auto p-8 flex flex-col justify-center text-center w-full h-full'>
       <div class='pb-8'>
         <p class='text-4xl font-bold inline border-b-4 text-white border-red-700 drop-shadow-lg shadow-black'>
@@ -25,7 +25,7 @@ export default {
     return {
       worksData: [
           {
-          img: 'FrameofLightDesigns.png',
+          img: 'FrameofLightDesigns.jpg',
           title: 'Frame of Light Designs',
           site: `https://www.frameoflightdesigns.com`,
           siteTitle: 'Site',
@@ -33,7 +33,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'PositiveMasculinityNow.png',
+          img: 'PositiveMasculinityNow.jpg',
           title: 'Positive Masculinity Now',
           site: `https://www.positivemasculinitynow.org`,
           siteTitle: 'Site',
@@ -41,7 +41,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'NENYOS.png',
+          img: 'NENYOS.jpg',
           title: 'North Eastern New York Orchid Society',
           site: `https://www.nenyosorchids.com`,
           siteTitle: 'Site',
@@ -49,7 +49,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'TheAwesomeHairLab.png',
+          img: 'TheAwesomeHairLab.jpg',
           title: 'The Awesome Hair Lab',
           site: `https://www.theawesomehairlab.com`,
           siteTitle: 'Site',
@@ -57,7 +57,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'GreenMountainHashCo.png',
+          img: 'GreenMountainHashCo.jpg',
           title: 'Green Mountain Hash Co',
           site: `https://www.greenmountainhashco.com`,
           siteTitle: 'Site',
@@ -65,7 +65,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'ASWMechanical.png',
+          img: 'ASWMechanical.jpg',
           title: 'ASW Mechanical',
           site: ``,
           siteTitle: 'Site',
@@ -73,7 +73,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'UnderdogDevs.png',
+          img: 'UnderdogDevs.jpg',
           title: 'Underdog Devs',
           site: `https://www.underdogdevs.org/`,
           siteTitle: 'Site',
@@ -81,7 +81,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'BattleshipAPI-600x500.png',
+          img: 'BattleshipAPI-600x500.jpg',
           title: 'Battleship API',
           site: ``,
           siteTitle: 'Site',

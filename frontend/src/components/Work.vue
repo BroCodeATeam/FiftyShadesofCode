@@ -1,9 +1,9 @@
 <template>
   <div
-      class='works-block shadow-lg shadow-red-900 group container rounded-md flex justify-center items-center mx-auto    content-div works-img'
-       :style='backgroundImageInlineStyle' >
+      class='works-block shadow-lg shadow-red-900 group container rounded-md flex justify-center items-center mx-auto content-div works-img lg:w-full lg:h-full'
+       :style="{ backgroundImage: `url('../assets/works/${this.works.img})` }" >
     <div
-        class='opacity-0 group-hover:opacity-100 hover:rounded-md hover:bg-gradient-to-t from-zinc-900 to-red-700 hover:border-zinc-500' >
+        class='opacity-0 group-hover:opacity-100 hover:rounded-md hover:justify-center hover:items-center  hover:bg-gradient-to-t from-zinc-900 to-red-700 hover:border-zinc-500' >
               <span class='text-2xl font-bold text-white drop-shadow-md shadow-white tracking-wider' >
                 {{works.title}}
               </span>
@@ -31,7 +31,7 @@ export default {
   },
   computed: {
     backgroundImageInlineStyle() {
-      return `background-image: url("../assets/works/${this.works.img}");`
+      return `background-image: url('../assets/works/${this.works.img}');`
     }
   }
 }

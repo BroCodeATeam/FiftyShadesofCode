@@ -1,8 +1,8 @@
 <template>
   <div id='contact'
-       class='w-full h-screen bg-gradient-to-t from-zinc-700 to-zinc-900 text-white flex justify-center text-center  items-center p-4'>
+       class='w-full h-screen bg-gradient-to-t from-zinc-700 to-zinc-900 text-white flex justify-center text-center items-center p-4 lg:w-full lg:h-full'>
     <form method='POST' action="https://getform.io/f/23706447-711c-4993-b6b5-861d10a543a7"
-          class='flex flex-col max-w-[600px] w-full'>
+          class='flex flex-col max-w-[600px] w-auto'>
       <div class='pb-8'>
         <p class='text-4xl font-bold inline border-b-4 border-red-700 text-white'>Contact</p>
         <p class='text-white py-4'>Submit the form below or shoot me an email - philiprmcdavid@gmail.com</p>

@@ -1,5 +1,5 @@
 <template>
-  <div id='skills' class='w-full h-full bg-gradient-to-t from-zinc-700 to-zinc-900 text-[#ffffff] py-20 sm:inset-0'>
+  <div id='skills' class='w-full h-full bg-gradient-to-t from-zinc-700 to-zinc-900 text-[#ffffff] py-20 lg:w-full lg:h-full sm:inset-0'>
 <!--    Container-->
     <div class='max-w-full mx-auto p-6 flex flex-col justify-center text-center w-full h-full'>
       <div>
