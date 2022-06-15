@@ -1,9 +1,9 @@
 <template>
-  <div class='works-block shadow-lg shadow-red-900 group container
-             bg-red-700 rounded-md flex justify-center items-center mx-auto content-div hover:bg-gradient-to-t from-zinc-900 to-red-700 hover:border-zinc-500 works-img'
+  <div
+      class='works-block shadow-lg shadow-red-900 group container rounded-md flex justify-center items-center mx-auto    content-div works-img'
        :style='backgroundImageInlineStyle' >
     <div
-        class='opacity-0 group-hover:opacity-100 hover:bg-gradient-to-t from-zinc-900 to-red-700 hover:border-zinc-500 hover:h-auto' >
+        class='opacity-0 group-hover:opacity-100 hover:rounded-md hover:bg-gradient-to-t from-zinc-900 to-red-700 hover:border-zinc-500 hover:h-auto' >
               <span class='text-2xl font-bold text-white drop-shadow-md shadow-white tracking-wider' >
                 {{works.title}}
               </span>
