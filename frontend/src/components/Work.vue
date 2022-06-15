@@ -27,11 +27,11 @@
 export default {
   name: 'SingleWorkBlock',
   props: {
-    works: String
+    works: Object
   },
   computed: {
     backgroundImageInlineStyle() {
-      return `background-image: url("../assets/works/{this.works.img}");`
+      return `background-image: url("../assets/works/${this.works.img}");`
     }
   }
 }
