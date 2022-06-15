@@ -11,7 +11,7 @@
         <h1
             class='text-4xl md:text-3xl sm:text-xl font-bold text-center text-zinc-300 drop-shadow-[2px_2px_2px_rgba(0,0,0)]'> <a
             href='https://www.linkedin.com/fiftyshadesofcode/' target='_blank'
-            class='text-zinc-500 3xl:text-6xl 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-sm hover:underline'>Philip R. McDavid</a>
+            class='text-zinc-300 3xl:text-6xl 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-sm hover:underline'>Philip R. McDavid</a>
         </h1>
         <h2 class='text-4xl md:text-2xl sm:text-sm py-4 font-bold text-center text-neutral-500 drop-shadow-[2px_1px_1px_rgba(0,0,0)]' >
             I'm a Full Stack Developer
@@ -24,11 +24,11 @@
 
         <div class='mt-16 md:flex gap-1 md:gap-10' >
           <button
-              class='text-zinc-800 bg-zinc-500 hidden md:block hover:bg-gradient-to-t from-zinc-900 to-red-700 p-2' >
+              class='text-zinc-200 border-2 border-zinc-200 hidden md:block hover:bg-gradient-to-t from-zinc-900 to-red-700 p-2' >
             View My Work
           </button>
           <button
-              class='text-zinc-500 border-2 border-zinc-500 mb-5 md:mb-0 hover:bg-gradient-to-t from-zinc-900 to-red-700 hover:text-white hover:border-white p-1.5' >
+              class='text-zinc-200 border-2 border-zinc-200 mb-5 md:mb-0 hover:bg-gradient-to-t from-zinc-900 to-red-700 hover:text-white hover:border-white p-1.5' >
             Contact Me
           </button>
         </div>
