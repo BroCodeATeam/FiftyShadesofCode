@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: '/FiftyShadesofCode/'
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/FiftyShadesofCode/'
+        : '/'
 };
