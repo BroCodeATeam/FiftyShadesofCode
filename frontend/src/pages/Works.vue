@@ -17,14 +17,6 @@
 </template>
 
 <script>
-import folPD from '../assets/works/FrameofLightDesigns.png'
-import pmNOW from '../assets/works/PositiveMasculinityNow.png'
-import nenYOS from '../assets/works/NENYOS.png'
-import taHL from '../assets/works/TheAwesomeHairLab.png'
-import gmHASHCO from '../assets/works/GreenMountainHashCo.png'
-import aswM from '../assets/works/ASWMechanical.png'
-import undDEV from '../assets/works/UnderdogDevs.png'
-import bAPI from '../assets/works/BattleshipAPI-600x500.png'
 import SingleWorkBlock from '../components/Work.vue'
 export default {
   name: 'Works',
@@ -33,7 +25,7 @@ export default {
     return {
       worksData: [
           {
-          img: 'folPD',
+          img: 'FrameofLightDesigns.png',
           title: 'Frame of Light Designs',
           site: `https://www.frameoflightdesigns.com`,
           siteTitle: 'Site',
@@ -41,7 +33,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'pmNOW',
+          img: 'PositiveMasculinityNow.png',
           title: 'Positive Masculinity Now',
           site: `https://www.positivemasculinitynow.org`,
           siteTitle: 'Site',
@@ -49,7 +41,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'nenYOS',
+          img: 'NENYOS.png',
           title: 'North Eastern New York Orchid Society',
           site: `https://www.nenyosorchids.com`,
           siteTitle: 'Site',
@@ -57,7 +49,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'taHL',
+          img: 'TheAwesomeHairLab.png',
           title: 'The Awesome Hair Lab',
           site: `https://www.theawesomehairlab.com`,
           siteTitle: 'Site',
@@ -65,7 +57,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'gmHASHCO',
+          img: 'GreenMountainHashCo.png',
           title: 'Green Mountain Hash Co',
           site: `https://www.greenmountainhashco.com`,
           siteTitle: 'Site',
@@ -73,7 +65,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'aswM',
+          img: 'ASWMechanical.png',
           title: 'ASW Mechanical',
           site: ``,
           siteTitle: 'Site',
@@ -81,7 +73,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'undDEV',
+          img: 'UnderdogDevs.png',
           title: 'Underdog Devs',
           site: `https://www.underdogdevs.org/`,
           siteTitle: 'Site',
@@ -89,7 +81,7 @@ export default {
           codeTitle: 'Code'
         },
           {
-          img: 'bAPI',
+          img: 'BattleshipAPI-600x500.png',
           title: 'Battleship API',
           site: ``,
           siteTitle: 'Site',
