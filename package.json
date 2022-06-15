@@ -1,13 +1,16 @@
 {
+  "homepage": "https://www.fiftyshdesofcode.com",
   "name": "frontend",
   "private": true,
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
+    "execa": "^6.1.0",
     "vue": "^3.2.27",
     "vue3-smooth-scroll": "^0.8.1"
   },
