@@ -1,12 +1,14 @@
 {
-  "homepage": "https://www.fiftyshdesofcode.com",
   "name": "fifty-shades-of-code",
   "private": true,
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
-    "build": "vue-cli-service build --dest _static",
+    "build": "vite build",
     "preview": "vite preview"
+  },
+  "engines": {
+    "node": "14.19.3"
   },
   "dependencies": {
     "execa": "^6.1.0",
